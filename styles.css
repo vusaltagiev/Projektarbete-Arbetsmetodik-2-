@@ -47,10 +47,8 @@ a {
     text-decoration: none;
 }
 
-.search {
-    height: 18px;
-    padding: 0.7rem;
-    cursor: pointer;
+.fa-solid {
+    color: #dbdbdb;
 }
 
 .bag {
@@ -59,7 +57,7 @@ a {
 
 .logo {
     padding: 20px 18px;
-    background-image: url(apple.png);
+    background-image: url(/Img/apple.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
