@@ -505,3 +505,22 @@ a {
     object-fit: cover;
     user-select: none;
 }
+
+.one{
+    padding: 300px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.two{
+    padding: 300px;
+    background-color: rgb(4, 4, 42);
+    display: flex;
+    justify-content: center;
+}
+.three{
+    padding: 300px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
