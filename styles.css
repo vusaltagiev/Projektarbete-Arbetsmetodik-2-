@@ -89,6 +89,7 @@ a {
     width: 18px;
 }
 
+
 /*Hamburger*/
 
 .header .menu-icon .navicon:before,
@@ -114,26 +115,153 @@ a {
     display: none;
 }
 
-.header .menu-btn:checked ~ .menu {
+.header .menu-btn:checked~.menu {
     max-height: 240px;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon {
+.header .menu-btn:checked~.menu-icon .navicon {
     background: transparent;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:before {
+.header .menu-btn:checked~.menu-icon .navicon:before {
     transform: rotate(-45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:after {
+.header .menu-btn:checked~.menu-icon .navicon:after {
     transform: rotate(45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
     top: 0;
 }
+
+/*-------------------------------------------------------------------------------------------------*/
+
+.homepage-selection collection-module {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px;
+    grid-template-areas: none;
+    position: relative;
+    direction: ltr;
+}
+
+.iphone-14-pro {
+    display: block;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    color: rgb(29, 39, 31);
+    direction: ltr;
+    height: 546px;
+    position: relative;
+    margin-top: 0px;
+}
+
+.module-content {
+    box-sizing: border-box;
+    border: 2px solid red;
+    display: block;
+    height: 534px;
+    padding-top: 44px;
+    position: relative;
+    color: #111;
+}
+
+.wrapper {
+    display: flex;
+    direction: ltr;
+    flex-direction: column;
+    background-color: #111;
+    color: #fff;
+    position: relative;
+    -webkit-box-orient: vertical;
+}
+
+.wrapper-copy {
+    display: block;
+    direction: ltr;
+    position: relative;
+    margin-top: 44px;
+    color: rgb(245, 245, 247);
+}
+
+.headline {
+    border: 2px solid red;
+    color: rgb(245, 245, 247);
+    direction: ltr;
+    display: block;
+    flex-shrink: 1;
+    font-family: 'Gilda Display', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    margin-block-end: 0px;
+    margin-block-start: 42px;
+    margin-inline-end: 54px;
+    margin-inline-start: 54px;
+    margin-right: 54px;
+    margin-left: 54px;
+    margin-top: 42px;
+    max-width: 330px;
+    position: relative;
+    text-align: center;
+}
+
+.subhead {
+    color: rgb(245, 245, 247);
+    direction: ltr;
+    display: block;
+    flex-shrink: 1;
+    border: 2px solid red;
+    font-family: 'Gilda Display', serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    margin-block-end: 0px;
+    margin-block-start: 4px;
+    margin-inline-end: 54px;
+    margin-inline-start: 54px;
+    margin-left: 54px;
+    margin-right: 54px;
+    margin-top: 4px;
+    max-width: 330px;
+    position: relative;
+    text-align: center;
+}
+
+.cta-link {
+    direction: ltr;
+    display: block;
+    font-family: 'Gilda Display', serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 13px;
+    position: relative;
+    text-align: center;
+}
+
+.cta-link a {}
+
+
+/* .flex-container {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container div {
+    margin: 20px;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid red;
+} */
+
+/*-------------------------------------------------------------------------------------------------*/
 
 /* 48em = 768px */
 
@@ -152,6 +280,7 @@ a {
     .header .menu-icon {
         display: none;
     }
+    
 }
 
 /*SLIDER*/
@@ -219,7 +348,7 @@ a {
 
 /*DOTS*/
 
-.wrapper {
+.wrapper2 {
     display: flex;
     flex-direction: row;
     position: relative;
@@ -375,4 +504,6 @@ a {
     height: 670px;
     object-fit: cover;
     user-select: none;
+}
+
 }
