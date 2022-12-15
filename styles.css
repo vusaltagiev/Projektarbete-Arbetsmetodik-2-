@@ -527,10 +527,6 @@ a {
 
 /* Julklappstips */
 
-.iphone-12-pro {
-  background: url("/Img/apple-logo-colorful-outline-black-background-ipad-hd-2048x2048-789.png");
-}
-
 .title {
   color: #fff;
   text-align: center;
@@ -606,4 +602,24 @@ a {
   border-top: none;
 }
 
-/*alex*/
+.apple-present {
+    background-color: rgb(1, 0, 42);
+    width: 100%;
+    height: 800px;
+  }
+  
+  img {
+    display: block;
+    -webkit-user-select: none;
+    margin: auto;
+    cursor: zoom-in;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+    width: 300px;
+    height: 300px;
+  }
+
+  /*alex*/
+  
+
+  
