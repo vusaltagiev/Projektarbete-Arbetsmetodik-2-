@@ -248,22 +248,22 @@ a {
     font-style: normal;
     font-weight: 900;
     margin: 0 auto;
-    margin-top: 4px;
+    margin-top: 18px;
     max-width: 330px;
     position: relative;
     text-align: center;
 }
 
 .link {
-    direction: ltr;
     color: rgb(41, 151, 255);
+    direction: ltr;
     display: block;
 
     font-family: "Gilda Display", serif;
 
     border: 2px solid red;
     margin: 0 auto;
-    margin-top: 130px;
+    margin-top: 18px;
     max-width: 250px;
     font-family: 'Gilda Display', serif;
 
@@ -273,6 +273,7 @@ a {
     position: relative;
     text-align: center;
 }
+
 
 
 .cta-link a {
@@ -285,6 +286,12 @@ a {
 
 .lik a {
     color: rgb(41, 151, 255);
+    display: inline;
+    cursor: pointer;
+    direction: ltr;
+    font-size: 17px;
+    margin-left: 25px;
+    text-align: center;
 }
 
 .image-wrapper {
@@ -538,6 +545,7 @@ a {
     height: 670px;
     object-fit: cover;
     user-select: none;
+  
 }
 
 /*FOOTER*/
