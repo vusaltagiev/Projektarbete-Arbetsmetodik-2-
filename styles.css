@@ -140,16 +140,6 @@ a {
 
 /*-------------------------------------------------------------------------------------------------*/
 
-.homepage-selection collection-module {
-    display: grid;
-    column-gap: 50px;
-    grid-template-columns: 100px 100px;
-    grid-template-rows: 100px;
-    grid-template-areas: none;
-    position: relative;
-    direction: ltr;
-}
-
 
 /* Section*/
 
