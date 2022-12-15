@@ -118,3 +118,13 @@ for (close = 0; close < closeBtn.length - 0; close++) {
   });
 }
 */
+
+/*BAG POP*/
+let popup = document.getElementsById("popup");
+
+function openPopup() {
+    popup.classList.add("open-popup");
+}
+function closePopup() {
+    popup.classList.remove("open-popup");
+}
