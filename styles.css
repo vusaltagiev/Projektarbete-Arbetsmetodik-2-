@@ -4,6 +4,7 @@ body {
     background-color: #f4f4f4;
 }
 
+
 /*NAVBAR*/
 
 a {
@@ -187,26 +188,14 @@ a {
 
 /*-------------------------------------------------------------------------------------------------*/
 
-.homepage-selection collection-module {
-    display: grid;
-    column-gap: 50px;
-    grid-template-columns: 100px 100px;
-    grid-template-rows: 100px;
-    grid-template-areas: none;
-    position: relative;
-    direction: ltr;
-}
 
-.iphone-14-pro {
-    display: block;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    color: rgb(29, 39, 31);
-    direction: ltr;
-    height: 546px;
-    position: relative;
-    margin-top: 0px;
+/* Section*/
+
+.homepage-selection {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: none;
+    grid-gap: 10px;
 }
 
 .module-content {
@@ -214,7 +203,6 @@ a {
     border: 2px solid red;
     display: block;
     height: 534px;
-    padding-top: 44px;
     position: relative;
     color: #111;
 }
@@ -225,37 +213,26 @@ a {
     flex-direction: column;
     background-color: #111;
     color: #fff;
-    position: relative;
-    -webkit-box-orient: vertical;
-}
-
-.wrapper-copy {
-    display: block;
-    direction: ltr;
-    position: relative;
-    margin-top: 44px;
-    color: rgb(245, 245, 247);
+    position: absolute;
+    width: 100%;
+    text-align: center;
 }
 
 .headline {
     border: 2px solid red;
     color: rgb(245, 245, 247);
     direction: ltr;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-shrink: 1;
     font-family: "Gilda Display", serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
     line-height: 36px;
-    margin-block-end: 0px;
-    margin-block-start: 42px;
-    margin-inline-end: 54px;
-    margin-inline-start: 54px;
-    margin-right: 54px;
-    margin-left: 54px;
+    margin: 0 auto;
     margin-top: 42px;
-    max-width: 330px;
     position: relative;
     text-align: center;
 }
@@ -269,30 +246,34 @@ a {
     font-family: "Gilda Display", serif;
     font-size: 19px;
     font-style: normal;
-    font-weight: 400;
-    margin-block-end: 0px;
-    margin-block-start: 4px;
-    margin-inline-end: 54px;
-    margin-inline-start: 54px;
-    margin-left: 54px;
-    margin-right: 54px;
+    font-weight: 900;
+    margin: 0 auto;
     margin-top: 4px;
     max-width: 330px;
     position: relative;
     text-align: center;
 }
 
-.cta-link {
+.link {
     direction: ltr;
+    color: rgb(41, 151, 255);
     display: block;
+
     font-family: "Gilda Display", serif;
+
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 130px;
+    max-width: 250px;
+    font-family: 'Gilda Display', serif;
+
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
-    margin-top: 13px;
     position: relative;
     text-align: center;
 }
+
 
 .cta-link a {
 }
@@ -301,16 +282,21 @@ a {
     border: 2px solid blue;
     display: flex;
     justify-content: center;
+
+.lik a {
+    color: rgb(41, 151, 255);
 }
 
-.flex-container div {
-    margin: 20px;
-    width: 100%;
-    padding: 20px;
-    border: 2px solid red;
-} */
+.image-wrapper {
+    display: block;
+    direction: ltr;
+    position: absolute;
+
+}
+
 
 /*-------------------------------------------------------------------------------------------------*/
+
 
 /* 48em = 768px */
 
@@ -330,6 +316,7 @@ a {
         display: none;
     }
 }
+
 
 /*SLIDER*/
 
@@ -394,6 +381,7 @@ a {
     transition: transform 0.15s linear, opacity 0.15s linear;
 }
 
+
 /*DOTS*/
 
 .wrapper2 {
@@ -452,6 +440,7 @@ a {
     border-radius: 50%;
 }
 
+
 /*STREAM BTN*/
 
 .stream {
@@ -471,6 +460,7 @@ a {
     outline: 1px transparent;
     text-decoration: underline;
 }
+
 
 /*IMAGES*/
 
