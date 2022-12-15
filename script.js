@@ -95,30 +95,6 @@ slidesContainer.addEventListener("mouseleave", autoplay);
 
 autoplay();
 
-/*OPEN BAG*/
-/*
-let bagBtn = document.getElementsByClassName("bagBtn");
-let bag;
-for (bag = 0; bag < bagBtn.length - 0; bag++) {
-  bagBtn[bag].addEventListener("click", function() {
-    this.nextElementSibling.classList.add("bagVisible");
-  });
-}
-*/
-/*CLOSE BAG*/
-/*
-let closeBtn = document.getElementsByClassName("fa-times");
-let close;
-for (close = 0; close < closeBtn.length - 0; close++) {
-  closeBtn[close].addEventListener("click", function() {
-    var bagWondow = document.querySelectorAll(".bagVisible");
-    [].forEach.call(closebagWindow, function(el) {
-      el.classList.remove("bagVisible");
-    });
-  });
-}
-*/
-
 /*BAG POP*/
 let popup = document.getElementsById("popup");
 
