@@ -248,147 +248,6 @@ a {
     color: #5c5c5c;
 }
 
-/*
-.popup2 p {
-    color: #5c5c5c;
-    width: 100%;
-    padding: 1rem;
-    font-size: 0.9rem;
-}
-
-.popup2 button {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 17%;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    border-top: 1px solid #5c5c5c;
-    background: none;
-}
-
-.popup2 button a {
-    color: #0066cc;
-    text-decoration: none;
-}
-
-.popup2 button a:hover {
-    text-decoration: underline;
-}
-
-.icons2 {
-    display: inline-block;
-    width: 10%;
-    height: 50%;
-}
-*/
-/*-------------------------------------------------------------------------------------------------*/
-
-/* Section*/
-
-.homepage-selection {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-areas: none;
-    grid-gap: 10px;
-}
-
-.module-content {
-    box-sizing: border-box;
-    border: 2px solid red;
-    display: block;
-    height: 534px;
-    position: relative;
-    color: #111;
-}
-
-.wrapper {
-    display: flex;
-    direction: ltr;
-    flex-direction: column;
-    background-color: #111;
-    color: #fff;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-}
-
-.headline {
-    border: 2px solid red;
-    color: rgb(245, 245, 247);
-    direction: ltr;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 1;
-    font-family: "Gilda Display", serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 36px;
-    margin: 0 auto;
-    margin-top: 42px;
-    position: relative;
-    text-align: center;
-}
-
-.subhead {
-    color: rgb(245, 245, 247);
-    direction: ltr;
-    display: block;
-    flex-shrink: 1;
-    border: 2px solid red;
-    font-family: "Gilda Display", serif;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 900;
-    margin: 0 auto;
-    margin-top: 4px;
-    max-width: 330px;
-    position: relative;
-    text-align: center;
-}
-
-.link {
-    direction: ltr;
-    color: rgb(41, 151, 255);
-    display: block;
-
-    font-family: "Gilda Display", serif;
-
-    border: 2px solid red;
-    margin: 0 auto;
-    margin-top: 130px;
-    max-width: 250px;
-    font-family: "Gilda Display", serif;
-
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    position: relative;
-    text-align: center;
-}
-
-.cta-link a {
-}
-
-/* .flex-container {
-    border: 2px solid blue;
-    display: flex;
-    justify-content: center;
-
-.lik a {
-    color: rgb(41, 151, 255);
-}
-
-.image-wrapper {
-    display: block;
-    direction: ltr;
-    position: absolute;
-
-}
-
 /* 48em = 768px */
 
 @media (min-width: 48em) {
@@ -808,8 +667,9 @@ a {
     text-decoration: underline;
 }
 
-/*alex*/
+/*alex--------------------------------------------------------------*/
 
+/*IMAC*/
 a {
     display: block;
     text-decoration: none;
@@ -824,52 +684,17 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 700px;
     width: 100%;
     margin-top: 0;
-}
-.holliday {
-    background-image: url("/Img/holiday-logo-202211\ \(1\).png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-    width: 100%;
-    margin-top: 0;
-}
-
-.ipad {
-    background-image: url("/Img/ipad.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-    width: 100%;
-}
-
-.title {
-    color: #fff;
-    text-align: center;
-    padding-top: 5.5rem;
+    margin-bottom: 0.8rem;
 }
 
 .title-heading {
-    font-size: 5.6rem;
+    color: #000000d7;
+    font-size: 3.2rem;
     line-height: 1.08;
     letter-spacing: 0.005rem;
-}
-
-.title-sub-heading {
-    font-size: 2.65rem;
-    margin-top: 0.6rem;
-    letter-spacing: 0.008rem;
-    font-weight: 400;
-}
-
-.title-price {
-    font-size: 1.7rem;
-    color: #888;
-    margin-top: 0.68rem;
 }
 
 .cta {
@@ -877,35 +702,131 @@ a {
     margin-top: 1.8rem;
 }
 
-.cta-link {
-    color: #66bbff;
+.title {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 5.5rem;
+}
+/*IMAC END*/
+/*HOLIDAY*/
+
+.holliday {
+    background-image: url("/Img/holiday-logo-202211\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 399px;
+    width: 18%;
+    margin-top: 6rem;
+}
+
+.holiday-wrapper {
+    display: inline-block;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(1, 0, 42);
+}
+
+.holiday-wrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.holiday-wrapper3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 25%;
+    margin-top: 6rem;
+}
+
+.title-heading2 {
+    color: #ffffff;
+    font-size: 3.2rem;
+    line-height: 1.08;
+    letter-spacing: 0.005rem;
+}
+
+.title2 {
+    color: #fff;
+}
+
+.cta2 {
+    text-align: center;
+}
+
+/*HOLIDAY END*/
+/*IPAD*/
+
+.ipad {
+    background-image: url("/Img/ipad.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.title-heading3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25rem;
+    padding-top: 15%;
+    color: #000000d7;
+    font-size: 3.2rem;
+    line-height: 1.08;
+    letter-spacing: 0.005rem;
+}
+
+.title3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.cta3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25rem;
+    margin-top: 1.8rem;
+}
+
+.cta-link3 {
+    color: #06c;
     font-size: 2.1rem;
     display: inline-block;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+/*IPAD END*/
+/*----------------------------*/
+
+.title-sub-heading {
+    font-size: 1.5rem;
+    margin-top: 0.6rem;
+    letter-spacing: 0.008rem;
+    font-weight: 400;
 }
 
-.cta-link:nth-child(2) {
-    margin-left: 2.6rem;
+.cta-link {
+    color: #06c;
+    font-size: 2.1rem;
+    display: inline-block;
+    font-size: 1rem;
 }
-
-.cta-link:hover {
-    border-bottom: 2px solid #66bbff;
-}
-
-/* iPad section */
-
-.title-dark {
-    color: black;
-}
-
-.cta-link-darker {
-    color: #0070c9;
-}
-
-.cta-link-darker:hover {
-    border-bottom-color: #0070c9;
-}
-
-/*alex*/
+/*----------------------------*/
+/*alex-------------------------------------------------------------*/
 
 /*Vüsal*/
 
@@ -914,148 +835,179 @@ a {
     grid-template-columns: auto auto;
     grid-template-areas: none;
     grid-gap: 10px;
-}
-
-.module-content-dark {
-    box-sizing: border-box;
-    border: 2px solid red;
-    display: block;
-    height: fit-content;
-    position: relative;
-    color: #111;
-    background-color: #000;
-}
-
-.module-content-light {
-    box-sizing: border-box;
-    border: 2px solid red;
-    display: block;
-    height: fit-content;
-    position: relative;
-    color: #fff;
-    background-color: #fff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 13rem;
+    height: 1800px;
+    margin-bottom: 1rem;
 }
 
 .wrapper {
-    display: flex;
-    direction: ltr;
-    flex-direction: column;
-    background-color: #000;
-    color: #fff;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-}
-
-.headline {
-    border: 2px solid red;
-    color: rgb(245, 245, 247);
-    direction: ltr;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
-    flex-shrink: 1;
-    font-family: "Gilda Display", serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 36px;
-    margin: 0 auto;
-    margin-top: 42px;
-    position: relative;
-    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 50%;
+}
+
+.module-content {
+    background-image: url(/Img/iphone14pro.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content2 {
+    background-image: url(/Img/airpods_pro.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content3 {
+    background-image: url(/Img/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content4 {
+    background-image: url(/Img/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #fbfbfd;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content5 {
+    background-image: url(/Img/promo_ipadpro__ch217v9v7no2_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content6 {
+    background-image: url(/Img/promo_tv4k_avail__e17d9isb0vwy_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #fbfbfd;
+    height: 600px;
+    width: 100%;
 }
 
 .backround-black-img {
     background-image: url(/Img/logo_watch_series_8__d2ssndjuokeq_medium.png);
-    border: 2px solid red;
     width: 200px;
     height: 60px;
     background-repeat: no-repeat;
     direction: ltr;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
-    margin-top: 42px;
-    position: relative;
 }
 
 .backround-white-img {
     background-image: url(/Img/logo_watch_ultra.png);
-    border: 2px solid red;
     width: 200px;
     height: 60px;
     background-repeat: no-repeat;
-    direction: ltr;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
-    margin-top: 42px;
-    position: relative;
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 36px;
+    border: none;
+    padding-top: 5rem;
+}
+
+.headline2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    border: none;
+    padding-top: 5rem;
 }
 
 .subhead {
-    color: rgb(245, 245, 247);
-    direction: ltr;
-    display: block;
-    flex-shrink: 1;
-    border: 2px solid red;
-    font-family: "Gilda Display", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 19px;
-    font-style: normal;
     font-weight: 400;
-    margin: 0 auto;
-    margin-top: 18px;
-    max-width: 330px;
-    position: relative;
-    text-align: center;
+}
+
+.subhead2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.subhead img {
+    margin-left: 0.5rem;
+    width: 29px;
+    height: 29px;
+}
+
+.watch-ultra {
+    margin-left: 42%;
+    margin-top: 5rem;
+}
+
+.link1 {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: rgb(44, 129, 215);
+    margin-right: 1rem;
+    font-size: 17px;
+    padding-left: 43%;
+}
+
+.link2 {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: rgb(44, 129, 215);
+    margin-right: 1rem;
+    font-size: 17px;
+    padding-left: 1%;
 }
 
 .link {
-    color: rgb(41, 151, 255);
-    direction: ltr;
-    display: block;
-    font-family: "Gilda Display", serif;
-    border: 2px solid red;
-    margin: 0 auto;
-    margin-top: 18px;
-    margin-bottom: 8px;
-    max-width: 250px;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    position: relative;
-    text-align: center;
-}
-
-.icon-icon {
-    color: rgb(41, 151, 255);
-    display: inline;
-    cursor: pointer;
-    direction: ltr;
-    font-size: 17px;
-    margin-left: 25px;
-    text-align: center;
-    position: relative;
-}
-
-.unit-image-wrappers {
-    display: block;
-    border: 2px solid blue;
-    text-align: center;
-    padding-top: 1em;
-}
-
-.dark-background {
-    background-color: #000;
-}
-
-.unit-image {
-    display: block;
-    width: 516px;
-    height: 490px;
-    background-size: 516px 490px;
-    background-repeat: no-repeat;
-    position: absolute;
-    /* background-image: url(/Img/iphone14pro.jpg); */
+    margin-top: 1rem;
 }
