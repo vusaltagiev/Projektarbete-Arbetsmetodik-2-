@@ -95,6 +95,7 @@ slidesContainer.addEventListener("mouseleave", autoplay);
 
 autoplay();
 
+
 /*OPEN BAG*/
 /*
 let bagBtn = document.getElementsByClassName("bagBtn");
