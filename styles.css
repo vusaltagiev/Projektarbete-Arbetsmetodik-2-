@@ -200,7 +200,7 @@ a {
     grid-gap: 10px;
 }
 
-.module-content {
+.module-content-dark {
     box-sizing: border-box;
     border: 2px solid red;
     display: block;
@@ -208,6 +208,16 @@ a {
     position: relative;
     color: #111;
     background-color: #000;
+}
+
+.module-content-light {
+    box-sizing: border-box;
+    border: 2px solid red;
+    display: block;
+    height: fit-content;
+    position: relative;
+    color: #fff;
+    background-color: #fff;
 }
 
 .wrapper {
@@ -240,13 +250,41 @@ a {
     text-align: center;
 }
 
+.backround-black-img {
+    background-image: url(/Img/logo_watch_series_8__d2ssndjuokeq_medium.png);
+    border: 2px solid red;
+    width: 200px;
+    height: 60px;
+    background-repeat: no-repeat;
+    direction: ltr;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 42px;
+    position: relative;
+}
+
+.backround-white-img {
+    background-image: url(/Img/logo_watch_ultra.png);
+    border: 2px solid red;
+    width: 200px;
+    height: 60px;
+    background-repeat: no-repeat;
+    direction: ltr;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 42px;
+    position: relative;
+}
+
 .subhead {
     color: rgb(245, 245, 247);
     direction: ltr;
     display: block;
     flex-shrink: 1;
     border: 2px solid red;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: "Gilda Display", serif;
     font-size: 19px;
     font-style: normal;
     font-weight: 400;
@@ -290,6 +328,10 @@ a {
     border: 2px solid blue;
     text-align: center;
     padding-top: 1em;
+}
+
+.dark-background {
+    background-color: #000;
 }
 
 .unit-image {
