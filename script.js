@@ -95,6 +95,17 @@ slidesContainer.addEventListener("mouseleave", autoplay);
 
 autoplay();
 
+
+
+/*OPEN BAG*/
+/*
+let bagBtn = document.getElementsByClassName("bagBtn");
+let bag;
+for (bag = 0; bag < bagBtn.length - 0; bag++) {
+  bagBtn[bag].addEventListener("click", function() {
+    this.nextElementSibling.classList.add("bagVisible");
+  });
+=======
 /*BAG POP*/
 let popup = document.getElementsById("popup");
 
