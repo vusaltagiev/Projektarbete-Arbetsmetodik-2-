@@ -611,6 +611,125 @@ a {
     color: #5c5c5c;
 }
 
+/*alex*/
+
+html {
+  font-size: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.imac {
+  margin-top: 0;
+  background: url("/Img/hero.jpg");
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  padding-top: 5.5rem;
+}
+
+.title-heading {
+  font-size: 5.6rem;
+  line-height: 1.08;
+  letter-spacing: 0.005rem;
+}
+
+.title-sub-heading {
+  font-size: 2.65rem;
+  margin-top: 0.6rem;
+  letter-spacing: 0.008rem;
+  font-weight: 400;
+}
+
+.title-price {
+  font-size: 1.7rem;
+  color: #888;
+  margin-top: 0.68rem;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 1.8rem;
+}
+
+.cta-link {
+  color: #66bbff;
+  font-size: 2.1rem;
+  display: inline-block;
+}
+
+.cta-link:nth-child(2) {
+  margin-left: 2.6rem;
+}
+
+.cta-link:hover {
+  border-bottom: 2px solid #66bbff;
+}
+
+/* iPad section */
+
+.iphone-12 {
+  background: url("/Img/ipad.jpg");
+}
+
+.title-dark {
+  color: black;
+}
+
+.cta-link-darker {
+  color: #0070c9;
+}
+
+.cta-link-darker:hover {
+  border-bottom-color: #0070c9;
+}
+
+.hero {
+  height: 69.2rem;
+  background-size: auto 74;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 0.6rem solid #fff;
+  border-bottom: 0.6rem solid #fff;
+}
+
+.imac {
+  border-top: none;
+}
+
+.apple-present {
+    background-color: rgb(1, 0, 42);
+    width: 100%;
+    height: 700px;
+  }
+  
+  img {
+    display: block;
+    -webkit-user-select: none;
+    margin: auto;
+    cursor: zoom-in;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+    width: 300px;
+    height: 300px;
+  }
+
+  .ipad{
+    margin-left: 375px;
+    margin-top: 200px;
+  }
+
+  
+    /*alex*/
+=======
 .links h4 {
     color: #4e4e4e;
     padding-bottom: 1rem;
