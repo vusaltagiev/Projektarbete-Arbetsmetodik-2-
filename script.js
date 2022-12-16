@@ -3,7 +3,7 @@ const slideShowContainer = document.querySelector(".slideShow");
 const slidesContainer = document.querySelector(".slidesContainer");
 const rightBtn = document.querySelector("#slideRight");
 const leftBtn = document.querySelector("#slideLeft");
-const slideShowInterval = 6000;
+const slideShowInterval = 600000;
 
 let slides = document.querySelectorAll(".slideCard");
 let index = 1;
@@ -95,12 +95,16 @@ slidesContainer.addEventListener("mouseleave", autoplay);
 
 autoplay();
 
-/*BAG POP*/
-let popup = document.getElementsById("popup");
+/*BAG POPUP*/
+let subMenu = document.getElementById("subMenu");
 
-function openPopup() {
-    popup.classList.add("open-popup");
+function toggleMenu() {
+    subMenu.classList.toggle("open-menu");
 }
-function closePopup() {
-    popup.classList.remove("open-popup");
+
+/*SEARCH POPUP*/
+let subMenu2 = document.getElementById("subMenu2");
+
+function toggleMenu2() {
+    subMenu2.classList.toggle("open-menu2");
 }
