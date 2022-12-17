@@ -138,7 +138,7 @@ a {
     max-height: 0px;
     transition: max-height 0s;
     overflow: hidden;
-    margin-top: 22rem;
+    margin-top: 22.4rem;
 }
 
 .popup {
@@ -189,6 +189,54 @@ a {
     display: inline-block;
     width: 10%;
     height: 50%;
+}
+
+/*78rem = 1250px*/
+
+@media (max-width: 78rem) {
+
+    .sub-menu-wrap{
+        overflow: visible;
+    }
+
+    .popup {
+        margin-left: 100%;
+    }
+}
+
+/*51.5rem = 830px*/
+@media (max-width: 51.5rem) {
+    .sub-menu-wrap.open-menu {
+        width: 100%;
+    }
+
+    .popup{
+        display: inline-block;
+        width: 100%;
+        margin-left: 0;
+        border-radius: 0;
+    }
+
+    .popup p {
+       display: inline-block;
+       width: 80%;
+       height: 10%;
+       margin-bottom: 0.5rem;
+    }
+
+    .popup button {
+        display: inline-block;
+        width: 80%;
+        padding-top: 0.5rem;
+    }
+
+    .popup button a{
+        float: left;
+    }
+
+    .icons {
+        float: left;
+    }
 }
 
 /*SEARCH-SUB-MENU*/
