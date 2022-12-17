@@ -95,23 +95,16 @@ slidesContainer.addEventListener("mouseleave", autoplay);
 
 autoplay();
 
+/*BAG POPUP*/
+let subMenu = document.getElementById("subMenu");
 
-
-/*OPEN BAG*/
-/*
-let bagBtn = document.getElementsByClassName("bagBtn");
-let bag;
-for (bag = 0; bag < bagBtn.length - 0; bag++) {
-  bagBtn[bag].addEventListener("click", function() {
-    this.nextElementSibling.classList.add("bagVisible");
-  });
-=======
-/*BAG POP*/
-let popup = document.getElementsById("popup");
-
-function openPopup() {
-    popup.classList.add("open-popup");
+function toggleMenu() {
+    subMenu.classList.toggle("open-menu");
 }
-function closePopup() {
-    popup.classList.remove("open-popup");
+
+/*SEARCH POPUP*/
+let subMenu2 = document.getElementById("subMenu2");
+
+function toggleMenu2() {
+    subMenu2.classList.toggle("open-menu2");
 }

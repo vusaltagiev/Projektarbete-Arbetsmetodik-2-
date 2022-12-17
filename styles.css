@@ -19,7 +19,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2c2c2e;
+    background-color: #171718ea;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
@@ -35,7 +35,6 @@ a {
     margin: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #2c2c2e;
 }
 
 .header li {
@@ -46,12 +45,11 @@ a {
 
 .header li a {
     display: flex;
-    border-right: 1px solid #2c2c2e;
     text-decoration: none;
 }
 
-.fa-solid {
-    color: #aeaeae;
+#magnifying-glass {
+    color: #bebebe;
     cursor: pointer;
 }
 
@@ -137,40 +135,43 @@ a {
     top: 0;
 }
 
+
+/*BAG-SUB-MENU*/
+
+.sub-menu-wrap {
+    position: absolute;
+    max-height: 0px;
+    transition: max-height 0s;
+    overflow: hidden;
+    margin-top: 22rem;
+}
+
 .popup {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
+    display: block;
     text-align: center;
-    position: relative;
-    float: right;
-    margin-top: 3.4rem;
-    margin-right: 14rem;
+    margin-left: 59rem;
     width: 286px;
     height: 313px;
     background-color: white;
-    border: none;
-    z-index: 1000;
+    border: 0.5px solid #5c5c5c6f;
     border-radius: 15px;
     padding: 1rem;
-    box-shadow: 1px 1px 1px #5c5c5c;
-    /* visibility: hidden; */
 }
 
-.open-popup {
-    visibility: visible;
+.sub-menu-wrap.open-menu {
+    max-height: 400px;
 }
 
 .popup p {
     color: #5c5c5c;
     width: 100%;
     padding: 1rem;
+    font-size: 0.9rem;
 }
 
 .popup button {
     display: flex;
     align-items: center;
-    color: #0066cc;
     width: 100%;
     height: 17%;
     border-bottom: none;
@@ -180,168 +181,79 @@ a {
     background: none;
 }
 
+.popup button a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.popup button a:hover {
+    text-decoration: underline;
+}
+
 .icons {
     display: inline-block;
     width: 10%;
     height: 50%;
-    float: left;
 }
 
 
-/*-------------------------------------------------------------------------------------------------*/
+/*SEARCH-SUB-MENU*/
 
-
-/* Section*/
-
-.homepage-selection {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-areas: none;
-    grid-gap: 10px;
-}
-
-.module-content-dark {
-    box-sizing: border-box;
-    border: 2px solid red;
-    display: block;
-    height: fit-content;
-    position: relative;
-    color: #111;
-    background-color: #000;
-}
-
-.module-content-light {
-    box-sizing: border-box;
-    border: 2px solid red;
-    display: block;
-    height: fit-content;
-    position: relative;
-    color: #fff;
-    background-color: #fff;
-}
-
-.wrapper {
-    display: flex;
-    direction: ltr;
-    flex-direction: column;
-    background-color: #000;
-    color: #fff;
+.sub-menu-wrap2 {
     position: absolute;
+    max-height: 0px;
+    transition: max-height 0s;
+    overflow: hidden;
+    margin-top: 18rem;
+}
+
+.popup2 {
+    display: block;
+    text-align: center;
+    width: 657px;
+    height: 243px;
+    background-color: white;
+    border: 0.5px solid #5c5c5c6f;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 1rem;
+}
+
+.sub-menu-wrap2.open-menu2 {
+    max-height: 400px;
+}
+
+.pop2 {
+    display: flex;
     width: 100%;
-    text-align: center;
+    height: 2rem;
 }
 
-.headline {
-    border: 2px solid red;
-    color: rgb(245, 245, 247);
-    direction: ltr;
+.pop2:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.pop2 a {
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-shrink: 1;
-    font-family: "Gilda Display", serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 36px;
-    margin: 0 auto;
-    margin-top: 42px;
-    position: relative;
-    text-align: center;
+    padding-left: 3rem;
+    font-size: 0.9rem;
+    color: #000000e4;
+    text-decoration: none;
 }
 
-.backround-black-img {
-    background-image: url(/Img/logo_watch_series_8__d2ssndjuokeq_medium.png);
-    border: 2px solid red;
-    width: 200px;
-    height: 60px;
-    background-repeat: no-repeat;
-    direction: ltr;
+.pop2 a:hover {
+    color: #06c;
+}
+
+.popup2 h4 {
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 42px;
-    position: relative;
-}
-
-.backround-white-img {
-    background-image: url(/Img/logo_watch_ultra.png);
-    border: 2px solid red;
-    width: 200px;
-    height: 60px;
-    background-repeat: no-repeat;
-    direction: ltr;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 42px;
-    position: relative;
-}
-
-.subhead {
-    color: rgb(245, 245, 247);
-    direction: ltr;
-    display: block;
-    flex-shrink: 1;
-    border: 2px solid red;
-    font-family: "Gilda Display", serif;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 400;
-    margin: 0 auto;
-    margin-top: 18px;
-    max-width: 330px;
-    position: relative;
-    text-align: center;
-}
-
-.link {
-    color: rgb(41, 151, 255);
-    direction: ltr;
-    display: block;
-    font-family: "Gilda Display", serif;
-    border: 2px solid red;
-    margin: 0 auto;
-    margin-top: 18px;
-    margin-bottom: 8px;
-    max-width: 250px;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    position: relative;
-    text-align: center;
-}
-
-.icon-icon {
-    color: rgb(41, 151, 255);
-    display: inline;
-    cursor: pointer;
-    direction: ltr;
-    font-size: 17px;
-    margin-left: 25px;
-    text-align: center;
-    position: relative;
-}
-
-.unit-image-wrappers {
-    display: block;
-    border: 2px solid blue;
-    text-align: center;
-    padding-top: 1em;
-}
-
-.dark-background {
-    background-color: #000;
-}
-
-.unit-image {
-    display: block;
-    width: 516px;
-    height: 490px;
-    background-size: 516px 490px;
-    background-repeat: no-repeat;
-    position: absolute;
-    /* background-image: url(/Img/iphone14pro.jpg); */
+    font-size: 0.8rem;
+    font-weight: 100;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    color: #5c5c5c;
 }
 
 
@@ -393,15 +305,15 @@ a {
     flex-direction: row;
     width: 100vw;
     height: 40vw;
-    margin: 0;
-    padding-top: 4rem;
+    margin-left: 23%;
+    padding-top: 1rem;
 }
 
 .slideCard {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     flex-direction: row;
-    margin-left: 1rem;
+    transition-timing-function: ease-in-out cubic-bezier(0.7, 0.16, 0.13, 0.95);
 }
 
 .right-arrow {
@@ -436,7 +348,7 @@ a {
     flex-direction: row;
     position: relative;
     width: 100%;
-    height: 37vw;
+    height: 33vw;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -450,7 +362,8 @@ a {
     gap: 0.8vw;
     position: absolute;
     width: 100%;
-    z-index: 1;
+    height: 1rem;
+    z-index: 10;
     margin: 0 auto;
     padding: 1vw;
     background-color: transparent;
@@ -463,9 +376,9 @@ a {
     width: 0.3vw;
     border-radius: 50%;
     border: 0px solid rgb(154, 147, 147);
-    margin: 0;
+    margin-top: 0.9rem;
     padding: 0;
-    background-color: rgb(191, 191, 191);
+    background-color: #d0d0d0;
     transform-origin: center;
     transition: transform 0.2s linear, background-color 0.2s linear;
     pointer-events: all;
@@ -488,24 +401,66 @@ a {
 }
 
 
-/*STREAM BTN*/
+/*STREAM BTNS*/
 
 .stream {
-    display: flex;
     position: absolute;
-    color: white;
-    font-size: 0.8vw;
-    font-weight: 400;
-    line-height: 1.25;
-    width: fit-content;
-    height: fit-content;
-    top: 95%;
-    left: 5%;
+    width: 130px;
+    height: 40px;
+    margin-top: 36rem;
+    margin-right: 52rem;
+    padding: 0.7rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 50px;
+    background-color: rgb(232, 232, 232);
+    color: rgb(33, 33, 33);
     cursor: pointer;
-    z-index: 2;
-    user-select: none;
     outline: 1px transparent;
-    text-decoration: underline;
+    text-decoration: none;
+}
+
+.fa-solid {
+    color: #000000;
+    padding-left: 0.4rem;
+    padding-top: 0.1rem;
+}
+
+.movie {
+    position: absolute;
+    width: 630px;
+    height: 40px;
+    margin-top: 35.6rem;
+    margin-right: 2rem;
+    padding: 0.7rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(232, 232, 232);
+}
+
+.movie h4 {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.movie p {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-left: 0.5rem;
+}
+
+.dot {
+    display: inline-block;
+    border: none;
+    background-color: #fff;
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    margin: 0.2rem;
+    margin-left: 0.5rem;
 }
 
 
@@ -513,80 +468,100 @@ a {
 
 .img0 {
     content: url("/Img/185707329.jpg");
-    width: 1200px;
+    width: 1100px;
     height: 670px;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
     object-fit: cover;
     user-select: none;
 }
 
 .img1 {
-    content: url("/Img/689x387\ \(1\).jpg");
-    width: 1200px;
+    content: url("/Img/Spirited\ visningsbild.png");
+    width: 1100px;
     height: 670px;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
     object-fit: cover;
     user-select: none;
 }
 
 .img2 {
-    content: url("/Img/will-smith-emancipation-oltre-la-liberta-apple-tv-plus.jpg");
-    width: 1200px;
+    content: url(/Img/0.jpg);
+    width: 1100px;
     height: 670px;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
     object-fit: cover;
     user-select: none;
 }
 
 .img3 {
-    content: url(/Img/Spirited\ visningsbild.png);
-    width: 1200px;
+    content: url(/Img/1.jpg);
+    width: 1100px;
     height: 670px;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
     object-fit: cover;
     user-select: none;
 }
 
 .img4 {
-    content: url(/Img/689x387.jpg);
-    width: 1200px;
+    content: url(/Img/2.jpg);
+    width: 1100px;
     height: 670px;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
     background-size: contain;
     user-select: none;
 }
 
 .img5 {
-    content: url("/Img/p21271543_b_h8_ab.jpg");
-    width: 1200px;
+    content: url(/Img/3.jpg);
+    width: 1100px;
     height: 670px;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
     object-fit: cover;
     user-select: none;
 }
 
 .img6 {
-    content: url("/Img/689x387\ \(2\).jpg");
-    width: 1200px;
+    content: url(/Img/4.jpg);
+    width: 1100px;
     height: 670px;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
     object-fit: cover;
     user-select: none;
 }
 
 .img7 {
-    content: url("/Img/689x387\ \(3\).jpg");
-    width: 1200px;
+    content: url(/Img/5.jpg);
+    width: 1100px;
     height: 670px;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
     object-fit: cover;
     user-select: none;
 }
 
 .img8 {
-    content: url("/Img/689x387\ \(4\).jpg");
-    width: 1200px;
+    content: url("/Img/p21271543_b_h8_ab.jpg");
+    width: 1100px;
     height: 670px;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
     object-fit: cover;
     user-select: none;
 }
 
 .img9 {
-    content: url("/Img/689x387\ \(5\).jpg");
-    width: 1200px;
+    content: url("/Img/will-smith-emancipation-oltre-la-liberta-apple-tv-plus.jpg");
+    width: 1100px;
     height: 670px;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
     object-fit: cover;
     user-select: none;
 }
@@ -598,147 +573,38 @@ a {
     display: inline-block;
     width: 100%;
     height: 400px;
-    background-color: #e8e8e8;
+    background-color: #f5f5f7;
+    border-top: #d2d2d75b 1px solid;
     margin-top: 1rem;
-    padding-left: 25%;
+    padding-left: 29%;
 }
 
 .links {
-    display: inline-block;
-    width: 13%;
+    display: inline-table;
+    width: 10%;
     height: 300px;
     font-size: 0.8rem;
-    color: #5c5c5c;
+    color: #6e6e73;
+    margin-right: 2rem;
 }
 
-/*alex*/
-
-html {
-  font-size: 10px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  scroll-behavior: smooth;
-}
-
-a {
-  display: block;
-  text-decoration: none;
-}
-
-.imac {
-  margin-top: 0;
-  background: url("/Img/hero.jpg");
-}
-
-.title {
-  color: #fff;
-  text-align: center;
-  padding-top: 5.5rem;
-}
-
-.title-heading {
-  font-size: 5.6rem;
-  line-height: 1.08;
-  letter-spacing: 0.005rem;
-}
-
-.title-sub-heading {
-  font-size: 2.65rem;
-  margin-top: 0.6rem;
-  letter-spacing: 0.008rem;
-  font-weight: 400;
-}
-
-.title-price {
-  font-size: 1.7rem;
-  color: #888;
-  margin-top: 0.68rem;
-}
-
-.cta {
-  text-align: center;
-  margin-top: 1.8rem;
-}
-
-.cta-link {
-  color: #66bbff;
-  font-size: 2.1rem;
-  display: inline-block;
-}
-
-.cta-link:nth-child(2) {
-  margin-left: 2.6rem;
-}
-
-.cta-link:hover {
-  border-bottom: 2px solid #66bbff;
-}
-
-/* iPad section */
-
-.iphone-12 {
-  background: url("/Img/ipad.jpg");
-}
-
-.title-dark {
-  color: black;
-}
-
-.cta-link-darker {
-  color: #0070c9;
-}
-
-.cta-link-darker:hover {
-  border-bottom-color: #0070c9;
-}
-
-.hero {
-  height: 69.2rem;
-  background-size: auto 74;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-top: 0.6rem solid #fff;
-  border-bottom: 0.6rem solid #fff;
-}
-
-.imac {
-  border-top: none;
-}
-
-.apple-present {
-    background-color: rgb(1, 0, 42);
-    width: 100%;
-    height: 700px;
-  }
-  
-  img {
-    display: block;
-    -webkit-user-select: none;
-    margin: auto;
-    cursor: zoom-in;
-    background-color: hsl(0, 0%, 90%);
-    transition: background-color 300ms;
-    width: 300px;
-    height: 300px;
-  }
-
-  .ipad{
-    margin-left: 375px;
-    margin-top: 200px;
-  }
-
-  
-    /*alex*/
-=======
 .links h4 {
-    color: #4e4e4e;
+    color: #424245;
     padding-bottom: 1rem;
     padding-top: 1rem;
     font-size: 0.8rem;
 }
 
-.links p {
+.links a {
+    display: inline-block;
+    width: 80%;
     padding-bottom: 0.5rem;
+    text-decoration: none;
+    color: #5c5c5c;
+}
+
+.links a:hover {
+    text-decoration: underline;
 }
 
 .copyright {
@@ -758,18 +624,23 @@ a {
     justify-content: flex-start;
     padding-left: 0.5rem;
     font-size: 0.8rem;
-    color: #5c5c5cb8;
+    color: #5c5c5c;
 }
 
 .copy-a {
     padding-left: 0.5rem;
     color: #06c;
     font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.copy-a:hover {
+    text-decoration: underline;
+    color: #06c;
 }
 
 .copyright-2 {
     display: flex;
-    justify-content: flex-start;
     width: 70%;
     height: 25%;
     border-top: #4e4e4e5d 1px solid;
@@ -780,20 +651,396 @@ a {
 }
 
 .sverige {
-    padding-left: 47rem;
+    padding-left: 43rem;
+    color: #5c5c5c;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sverige:hover {
+    text-decoration: underline;
 }
 
 .copyright-3 {
     display: flex;
-    justify-content: flex-start;
-    width: 70%;
+    width: 50%;
     height: 18%;
     font-size: 0.8rem;
     color: #5c5c5ce6;
 }
 
-.copyright-3 p {
+.policy {
     border-right: 1px solid #5c5c5c62;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
+    color: #6e6e73;
+    text-decoration: none;
+}
+
+.policy:hover {
+    text-decoration: underline;
+}
+
+
+/*alex--------------------------------------------------------------*/
+
+
+/*IMAC*/
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.cards1 {
+    height: 1900px;
+}
+
+.imac {
+    background-image: url("/Img/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+}
+
+.title-heading {
+    color: #000000d7;
+    font-size: 3.2rem;
+    line-height: 1.08;
+    letter-spacing: 0.005rem;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 1.8rem;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 5.5rem;
+}
+
+
+/*IMAC END*/
+
+
+/*HOLIDAY*/
+
+.holliday {
+    background-image: url("/Img/holiday-logo-202211\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 399px;
+    width: 18%;
+    margin-top: 6rem;
+}
+
+.holiday-wrapper {
+    display: inline-block;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(1, 0, 42);
+}
+
+.holiday-wrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.holiday-wrapper3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 25%;
+    margin-top: 6rem;
+}
+
+.title-heading2 {
+    color: #ffffff;
+    font-size: 3.2rem;
+    line-height: 1.08;
+    letter-spacing: 0.005rem;
+}
+
+.title2 {
+    color: #fff;
+}
+
+.cta2 {
+    text-align: center;
+}
+
+
+/*HOLIDAY END*/
+
+
+/*IPAD*/
+
+.ipad {
+    background-image: url("/Img/ipad.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.title-heading3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25rem;
+    padding-top: 15%;
+    color: #000000d7;
+    font-size: 3.2rem;
+    line-height: 1.08;
+    letter-spacing: 0.005rem;
+}
+
+.title3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.cta3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25rem;
+    margin-top: 1.8rem;
+}
+
+.cta-link3 {
+    color: #06c;
+    font-size: 2.1rem;
+    display: inline-block;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+
+/*IPAD END*/
+
+
+/*----------------------------*/
+
+.title-sub-heading {
+    font-size: 1.5rem;
+    margin-top: 0.6rem;
+    letter-spacing: 0.008rem;
+    font-weight: 400;
+}
+
+.cta-link {
+    color: #06c;
+    font-size: 2.1rem;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+
+/*----------------------------*/
+
+
+/*alex-------------------------------------------------------------*/
+
+
+/*Vüsal*/
+
+.homepage-selection {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: none;
+    grid-gap: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 13rem;
+    height: 1800px;
+    margin-bottom: 1rem;
+}
+
+.wrapper {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    height: 50%;
+}
+
+.module-content {
+    background-image: url(/Img/iphone14pro.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content2 {
+    background-image: url(/Img/airpods_pro.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content3 {
+    background-image: url(/Img/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content4 {
+    background-image: url(/Img/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #fbfbfd;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content5 {
+    background-image: url(/Img/promo_ipadpro__ch217v9v7no2_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content6 {
+    background-image: url(/Img/promo_tv4k_avail__e17d9isb0vwy_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #fbfbfd;
+    height: 600px;
+    width: 100%;
+}
+
+.backround-black-img {
+    background-image: url(/Img/logo_watch_series_8__d2ssndjuokeq_medium.png);
+    width: 200px;
+    height: 60px;
+    background-repeat: no-repeat;
+    direction: ltr;
+    display: flex;
+    justify-content: center;
+}
+
+.backround-white-img {
+    background-image: url(/Img/logo_watch_ultra.png);
+    width: 200px;
+    height: 60px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 36px;
+    border: none;
+    padding-top: 5rem;
+}
+
+.headline2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    border: none;
+    padding-top: 5rem;
+}
+
+.subhead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.subhead2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.subhead img {
+    margin-left: 0.5rem;
+    width: 29px;
+    height: 29px;
+}
+
+.watch-ultra {
+    margin-left: 42%;
+    margin-top: 5rem;
+}
+
+.link1 {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: rgb(44, 129, 215);
+    margin-right: 1rem;
+    font-size: 17px;
+    padding-left: 43%;
+}
+
+.link2 {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: rgb(44, 129, 215);
+    margin-right: 1rem;
+    font-size: 17px;
+    padding-left: 1%;
+}
+
+.link {
+    margin-top: 1rem;
 }
