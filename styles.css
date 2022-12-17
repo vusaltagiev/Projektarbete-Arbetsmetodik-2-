@@ -4,6 +4,7 @@ body {
     background-color: #f4f4f4;
 }
 
+
 /*NAVBAR*/
 
 a {
@@ -87,6 +88,7 @@ a {
     width: 18px;
 }
 
+
 /*Hamburger*/
 
 .header .menu-icon .navicon:before,
@@ -112,27 +114,30 @@ a {
     display: none;
 }
 
-.header .menu-btn:checked ~ .menu {
+.header .menu-btn:checked~.menu {
     max-height: 240px;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon {
+.header .menu-btn:checked~.menu-icon .navicon {
     background: transparent;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:before {
+.header .menu-btn:checked~.menu-icon .navicon:before {
     transform: rotate(-45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:after {
+.header .menu-btn:checked~.menu-icon .navicon:after {
     transform: rotate(45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
     top: 0;
 }
+
+
 /*BAG-SUB-MENU*/
+
 .sub-menu-wrap {
     position: absolute;
     max-height: 0px;
@@ -191,7 +196,9 @@ a {
     height: 50%;
 }
 
+
 /*SEARCH-SUB-MENU*/
+
 .sub-menu-wrap2 {
     position: absolute;
     max-height: 0px;
@@ -234,6 +241,7 @@ a {
     color: #000000e4;
     text-decoration: none;
 }
+
 .pop2 a:hover {
     color: #06c;
 }
@@ -247,6 +255,7 @@ a {
     padding-left: 2rem;
     color: #5c5c5c;
 }
+
 
 /* 48em = 768px */
 
@@ -266,6 +275,7 @@ a {
         display: none;
     }
 }
+
 
 /*SLIDER*/
 
@@ -330,6 +340,7 @@ a {
     transition: transform 0.15s linear, opacity 0.15s linear;
 }
 
+
 /*DOTS*/
 
 .wrapper2 {
@@ -388,6 +399,7 @@ a {
     outline: none;
     border-radius: 50%;
 }
+
 
 /*STREAM BTNS*/
 
@@ -450,6 +462,7 @@ a {
     margin: 0.2rem;
     margin-left: 0.5rem;
 }
+
 
 /*IMAGES*/
 
@@ -552,6 +565,7 @@ a {
     object-fit: cover;
     user-select: none;
 }
+
 
 /*FOOTER*/
 
@@ -667,9 +681,12 @@ a {
     text-decoration: underline;
 }
 
+
 /*alex--------------------------------------------------------------*/
 
+
 /*IMAC*/
+
 a {
     display: block;
     text-decoration: none;
@@ -707,7 +724,11 @@ a {
     text-align: center;
     padding-top: 5.5rem;
 }
+
+
 /*IMAC END*/
+
+
 /*HOLIDAY*/
 
 .holliday {
@@ -761,7 +782,10 @@ a {
     text-align: center;
 }
 
+
 /*HOLIDAY END*/
+
+
 /*IPAD*/
 
 .ipad {
@@ -809,7 +833,11 @@ a {
     font-size: 1rem;
     margin-right: 1rem;
 }
+
+
 /*IPAD END*/
+
+
 /*----------------------------*/
 
 .title-sub-heading {
@@ -825,8 +853,13 @@ a {
     display: inline-block;
     font-size: 1rem;
 }
+
+
 /*----------------------------*/
+
+
 /*alex-------------------------------------------------------------*/
+
 
 /*Vüsal*/
 
@@ -934,7 +967,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-weight: 500;
@@ -947,7 +980,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 0, 0);
     font-size: 32px;
     font-style: normal;
@@ -962,7 +995,7 @@ a {
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 19px;
     font-weight: 400;
 }
@@ -972,7 +1005,7 @@ a {
     justify-content: center;
     align-items: center;
     color: rgb(0, 0, 0);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 19px;
     font-weight: 400;
 }
