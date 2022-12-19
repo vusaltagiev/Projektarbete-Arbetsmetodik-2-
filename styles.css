@@ -143,7 +143,11 @@ a {
     max-height: 0px;
     transition: max-height 0s;
     overflow: hidden;
+
+    margin-top: 22.4rem;
+
     margin-top: 22rem;
+
 }
 
 .popup {
@@ -197,6 +201,51 @@ a {
 }
 
 
+
+/*78rem = 1250px*/
+
+@media (max-width: 78rem) {
+    .sub-menu-wrap {
+        overflow: visible;
+    }
+    .popup {
+        margin-left: 100%;
+    }
+}
+
+
+/*51.5rem = 830px*/
+
+@media (max-width: 51.5rem) {
+    .sub-menu-wrap.open-menu {
+        width: 100%;
+    }
+    .popup {
+        display: inline-block;
+        width: 100%;
+        margin-left: 0;
+        border-radius: 0;
+    }
+    .popup p {
+        display: inline-block;
+        width: 80%;
+        height: 10%;
+        margin-bottom: 0.5rem;
+    }
+    .popup button {
+        display: inline-block;
+        width: 80%;
+        padding-top: 0.5rem;
+    }
+    .popup button a {
+        float: left;
+    }
+    .icons {
+        float: left;
+    }
+}
+
+
 /*SEARCH-SUB-MENU*/
 
 .sub-menu-wrap2 {
@@ -232,6 +281,44 @@ a {
 .pop2:hover {
     background-color: rgb(235, 235, 235);
 }
+
+=======
+/*SEARCH-SUB-MENU*/
+
+.sub-menu-wrap2 {
+    position: absolute;
+    max-height: 0px;
+    transition: max-height 0s;
+    overflow: hidden;
+    margin-top: 18rem;
+}
+
+.popup2 {
+    display: block;
+    text-align: center;
+    width: 657px;
+    height: 243px;
+    background-color: white;
+    border: 0.5px solid #5c5c5c6f;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 1rem;
+}
+
+.sub-menu-wrap2.open-menu2 {
+    max-height: 400px;
+}
+
+.pop2 {
+    display: flex;
+    width: 100%;
+    height: 2rem;
+}
+
+.pop2:hover {
+    background-color: rgb(235, 235, 235);
+}
+
 
 .pop2 a {
     display: flex;
