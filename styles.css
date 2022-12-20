@@ -4,7 +4,6 @@ body {
     background-color: #f4f4f4;
 }
 
-
 /*NAVBAR*/
 
 a {
@@ -87,7 +86,6 @@ a {
     width: 18px;
 }
 
-
 /* 62.5rem = 1000px */
 @media (max-width: 62.5rem) {
     .menu li {
@@ -160,23 +158,22 @@ a {
 .header .menu-btn:checked ~ li {
     background-color: #000000;
     transition: max-height 0.5s ease-out;
-
 }
 
-.header .menu-btn:checked~.menu-icon .navicon {
+.header .menu-btn:checked ~ .menu-icon .navicon {
     background: transparent;
 }
 
-.header .menu-btn:checked~.menu-icon .navicon:before {
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
     transform: rotate(-45deg);
 }
 
-.header .menu-btn:checked~.menu-icon .navicon:after {
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
     transform: rotate(45deg);
 }
 
-.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
-.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
 }
 
@@ -225,12 +222,13 @@ a {
     background: none;
 }
 
-.popup button {
+.popup button a {
     color: #0066cc;
     text-decoration: none;
 }
 
 .popup button:hover {
+
     text-decoration: underline;
     cursor: pointer;
 }
@@ -240,7 +238,6 @@ a {
     width: 10%;
     height: 50%;
 }
-
 
 /*78rem = 1250px*/
 @media (max-width: 78rem) {
@@ -256,7 +253,6 @@ a {
 }
 
 /*51.5rem = 830px*/
-
 @media (max-width: 51.5rem) {
     .sub-menu-wrap.open-menu {
         width: 100%;
@@ -292,7 +288,6 @@ a {
 }
 
 /*SEARCH-SUB-MENU*/
-
 .sub-menu-wrap2 {
     position: absolute;
     max-height: 0px;
@@ -343,7 +338,6 @@ body .sub-menu-wrap2 .open-menu2 {
     color: #000000e4;
     text-decoration: none;
 }
-
 .pop2 a:hover {
     color: #06c;
 }
@@ -656,6 +650,15 @@ a {
     padding-bottom: 1rem;
 }
 
+.backround-white-img {
+    background-image: url(/Img/logo_watch_ultra.png);
+    width: 200px;
+    height: 60px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
 .headline {
     display: flex;
     justify-content: center;
@@ -733,7 +736,29 @@ a {
     padding-top: 0.5rem;
 }
 
-/*Vüsal END*/
+.link1 {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: rgb(44, 129, 215);
+    margin-right: 1rem;
+    font-size: 17px;
+    padding-left: 43%;
+}
+
+.link2 {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: rgb(44, 129, 215);
+    margin-right: 1rem;
+    font-size: 17px;
+    padding-left: 1%;
+}
+
+.link {
+    margin-top: 1rem;
+}
 
 /*SLIDER*/
 
@@ -771,7 +796,7 @@ a {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    transition-timing-function: ease-in-out, cubic-bezier(0.7, 0.16, 0.13, 0.95);
+    transition-timing-function: ease-in-out cubic-bezier(0.7, 0.16, 0.13, 0.95);
 }
 
 .right-arrow {
@@ -797,7 +822,6 @@ a {
     cursor: pointer;
     transition: transform 0.15s linear, opacity 0.15s linear;
 }
-
 
 /*DOTS*/
 
@@ -857,7 +881,6 @@ a {
     outline: none;
     border-radius: 50%;
 }
-
 
 /*STREAM BTNS*/
 
@@ -920,7 +943,6 @@ a {
     margin: 0.2rem;
     margin-left: 0.5rem;
 }
-
 
 /*IMAGES*/
 
@@ -1023,7 +1045,6 @@ a {
     object-fit: cover;
     user-select: none;
 }
-
 
 /*FOOTER*/
 
