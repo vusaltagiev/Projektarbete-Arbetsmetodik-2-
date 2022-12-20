@@ -143,11 +143,7 @@ a {
     max-height: 0px;
     transition: max-height 0s;
     overflow: hidden;
-
     margin-top: 22.4rem;
-
-    margin-top: 22rem;
-
 }
 
 .popup {
@@ -185,12 +181,12 @@ a {
     background: none;
 }
 
-.popup button a {
+.popup button {
     color: #0066cc;
     text-decoration: none;
 }
 
-.popup button a:hover {
+.popup button :hover {
     text-decoration: underline;
 }
 
@@ -200,6 +196,190 @@ a {
     height: 50%;
 }
 
+
+/*Vüsal*/
+
+.homepage-selection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+    grid-template-areas: none;
+    grid-gap: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 13rem;
+    height: 1800px;
+    margin-bottom: 1rem;
+}
+
+.wrapper {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    height: 50%;
+}
+
+.module-content {
+    background-image: url(/Img/iphone14pro.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content2 {
+    background-image: url(/Img/airpods_pro.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content3 {
+    background-image: url(/Img/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content4 {
+    background-image: url(/Img/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #fbfbfd;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content5 {
+    background-image: url(/Img/promo_ipadpro__ch217v9v7no2_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content6 {
+    background-image: url(/Img/promo_tv4k_avail__e17d9isb0vwy_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #fbfbfd;
+    height: 600px;
+    width: 100%;
+}
+
+.backround-black-img {
+    background-image: url(/Img/logo_watch_series_8__d2ssndjuokeq_medium.png);
+    width: 200px;
+    height: 60px;
+    background-repeat: no-repeat;
+    direction: ltr;
+    display: flex;
+    justify-content: center;
+}
+
+.backround-white-img {
+    background-image: url(/Img/logo_watch_ultra.png);
+    width: 200px;
+    height: 60px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 36px;
+    border: none;
+    padding-top: 5rem;
+}
+
+.headline2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    border: none;
+    padding-top: 5rem;
+}
+
+.subhead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.subhead2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.subhead img {
+    margin-left: 0.5rem;
+    width: 29px;
+    height: 29px;
+}
+
+.watch-ultra {
+    margin-left: 42%;
+    margin-top: 5rem;
+}
+
+.link1 {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: rgb(44, 129, 215);
+    margin-right: 1rem;
+    font-size: 17px;
+    padding-left: 43%;
+}
+
+.link2 {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: rgb(44, 129, 215);
+    margin-right: 1rem;
+    font-size: 17px;
+    padding-left: 1%;
+}
+
+.link {
+    margin-top: 1rem;
+}
 
 
 /*78rem = 1250px*/
@@ -282,44 +462,6 @@ a {
     background-color: rgb(235, 235, 235);
 }
 
-=======
-/*SEARCH-SUB-MENU*/
-
-.sub-menu-wrap2 {
-    position: absolute;
-    max-height: 0px;
-    transition: max-height 0s;
-    overflow: hidden;
-    margin-top: 18rem;
-}
-
-.popup2 {
-    display: block;
-    text-align: center;
-    width: 657px;
-    height: 243px;
-    background-color: white;
-    border: 0.5px solid #5c5c5c6f;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    padding: 1rem;
-}
-
-.sub-menu-wrap2.open-menu2 {
-    max-height: 400px;
-}
-
-.pop2 {
-    display: flex;
-    width: 100%;
-    height: 2rem;
-}
-
-.pop2:hover {
-    background-color: rgb(235, 235, 235);
-}
-
-
 .pop2 a {
     display: flex;
     align-items: center;
@@ -400,7 +542,7 @@ a {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    transition-timing-function: ease-in-out cubic-bezier(0.7, 0.16, 0.13, 0.95);
+    transition-timing-function: ease-in-out, cubic-bezier(0.7, 0.16, 0.13, 0.95);
 }
 
 .right-arrow {
@@ -946,188 +1088,3 @@ a {
 
 
 /*alex-------------------------------------------------------------*/
-
-
-/*Vüsal*/
-
-.homepage-selection {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-areas: none;
-    grid-gap: 10px;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 13rem;
-    height: 1800px;
-    margin-bottom: 1rem;
-}
-
-.wrapper {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    width: 100%;
-    height: 50%;
-}
-
-.module-content {
-    background-image: url(/Img/iphone14pro.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: #000000;
-    height: 600px;
-    width: 100%;
-}
-
-.module-content2 {
-    background-image: url(/Img/airpods_pro.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: #000000;
-    height: 600px;
-    width: 100%;
-}
-
-.module-content3 {
-    background-image: url(/Img/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: #000000;
-    height: 600px;
-    width: 100%;
-}
-
-.module-content4 {
-    background-image: url(/Img/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: #fbfbfd;
-    height: 600px;
-    width: 100%;
-}
-
-.module-content5 {
-    background-image: url(/Img/promo_ipadpro__ch217v9v7no2_medium.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: #000000;
-    height: 600px;
-    width: 100%;
-}
-
-.module-content6 {
-    background-image: url(/Img/promo_tv4k_avail__e17d9isb0vwy_medium.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: #fbfbfd;
-    height: 600px;
-    width: 100%;
-}
-
-.backround-black-img {
-    background-image: url(/Img/logo_watch_series_8__d2ssndjuokeq_medium.png);
-    width: 200px;
-    height: 60px;
-    background-repeat: no-repeat;
-    direction: ltr;
-    display: flex;
-    justify-content: center;
-}
-
-.backround-white-img {
-    background-image: url(/Img/logo_watch_ultra.png);
-    width: 200px;
-    height: 60px;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-}
-
-.headline {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 36px;
-    border: none;
-    padding-top: 5rem;
-}
-
-.headline2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(0, 0, 0);
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 36px;
-    border: none;
-    padding-top: 5rem;
-}
-
-.subhead {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 19px;
-    font-weight: 400;
-}
-
-.subhead2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(0, 0, 0);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 19px;
-    font-weight: 400;
-}
-
-.subhead img {
-    margin-left: 0.5rem;
-    width: 29px;
-    height: 29px;
-}
-
-.watch-ultra {
-    margin-left: 42%;
-    margin-top: 5rem;
-}
-
-.link1 {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    color: rgb(44, 129, 215);
-    margin-right: 1rem;
-    font-size: 17px;
-    padding-left: 43%;
-}
-
-.link2 {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    color: rgb(44, 129, 215);
-    margin-right: 1rem;
-    font-size: 17px;
-    padding-left: 1%;
-}
-
-.link {
-    margin-top: 1rem;
-}
