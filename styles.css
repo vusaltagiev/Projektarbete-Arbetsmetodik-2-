@@ -4,6 +4,7 @@ body {
     background-color: #f4f4f4;
 }
 
+
 /*NAVBAR*/
 
 a {
@@ -86,6 +87,7 @@ a {
     width: 18px;
 }
 
+
 /* 62.5rem = 1000px */
 @media (max-width: 62.5rem) {
     .menu li {
@@ -158,22 +160,23 @@ a {
 .header .menu-btn:checked ~ li {
     background-color: #000000;
     transition: max-height 0.5s ease-out;
+
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon {
+.header .menu-btn:checked~.menu-icon .navicon {
     background: transparent;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:before {
+.header .menu-btn:checked~.menu-icon .navicon:before {
     transform: rotate(-45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:after {
+.header .menu-btn:checked~.menu-icon .navicon:after {
     transform: rotate(45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
     top: 0;
 }
 
@@ -222,12 +225,12 @@ a {
     background: none;
 }
 
-.popup button a {
+.popup button {
     color: #0066cc;
     text-decoration: none;
 }
 
-.popup button a:hover {
+.popup button :hover {
     text-decoration: underline;
 }
 
@@ -236,6 +239,7 @@ a {
     width: 10%;
     height: 50%;
 }
+
 
 /*78rem = 1250px*/
 @media (max-width: 78rem) {
@@ -251,6 +255,7 @@ a {
 }
 
 /*51.5rem = 830px*/
+
 @media (max-width: 51.5rem) {
     .sub-menu-wrap.open-menu {
         width: 100%;
@@ -286,6 +291,7 @@ a {
 }
 
 /*SEARCH-SUB-MENU*/
+
 .sub-menu-wrap2 {
     position: absolute;
     max-height: 0px;
@@ -336,6 +342,7 @@ body .sub-menu-wrap2 .open-menu2 {
     color: #000000e4;
     text-decoration: none;
 }
+
 .pop2 a:hover {
     color: #06c;
 }
@@ -381,7 +388,332 @@ body .sub-menu-wrap2 .open-menu2 {
     padding-left: 0;
 }
 
+/*alex--------------------------------------------------------------*/
 
+
+/*IMAC*/
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.cards1 {
+    height: 1900px;
+}
+
+.imac {
+    background-image: url("/Img/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+}
+
+.title-heading {
+    color: #000000d7;
+    font-size: 3.2rem;
+    line-height: 1.08;
+    letter-spacing: 0.005rem;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 1.8rem;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 5.5rem;
+}
+
+
+/*IMAC END*/
+
+
+/*HOLIDAY*/
+
+.holliday {
+    background-image: url("/Img/holiday-logo-202211\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 399px;
+    width: 18%;
+    margin-top: 6rem;
+}
+
+.holiday-wrapper {
+    display: inline-block;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(1, 0, 42);
+}
+
+.holiday-wrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.holiday-wrapper3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 25%;
+    margin-top: 6rem;
+}
+
+.title-heading2 {
+    color: #ffffff;
+    font-size: 3.2rem;
+    line-height: 1.08;
+    letter-spacing: 0.005rem;
+}
+
+.title2 {
+    color: #fff;
+}
+
+.cta2 {
+    text-align: center;
+}
+
+
+/*HOLIDAY END*/
+
+
+/*IPAD*/
+
+.ipad {
+    background-image: url("/Img/ipad.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.title-heading3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25rem;
+    padding-top: 15%;
+    color: #000000d7;
+    font-size: 3.2rem;
+    line-height: 1.08;
+    letter-spacing: 0.005rem;
+}
+
+.title3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.cta3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25rem;
+    margin-top: 1.8rem;
+}
+
+.cta-link3 {
+    color: #06c;
+    font-size: 2.1rem;
+    display: inline-block;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+
+/*IPAD END*/
+
+
+/*----------------------------*/
+
+.title-sub-heading {
+    font-size: 1.5rem;
+    margin-top: 0.6rem;
+    letter-spacing: 0.008rem;
+    font-weight: 400;
+}
+
+.cta-link {
+    color: #06c;
+    font-size: 2.1rem;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+/*alex-------------------------------------------------------------*/
+
+/*Vüsal*/
+
+.homepage-selection {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: none;
+    grid-gap: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 13rem;
+    
+    margin-bottom: 1rem;
+}
+
+.wrapper {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    height: 50%;
+}
+
+.module-content {
+    background-image: url(/Img/iphone14pro.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content2 {
+    background-image: url(/Img/airpods_pro.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content3 {
+    background-image: url(/Img/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content4 {
+    background-image: url(/Img/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #fbfbfd;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content5 {
+    background-image: url(/Img/promo_ipadpro__ch217v9v7no2_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+}
+
+.module-content6 {
+    background-image: url(/Img/promo_tv4k_avail__e17d9isb0vwy_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #fbfbfd;
+    height: 600px;
+    width: 100%;
+}
+
+.backround-black-img {
+    background-image: url(/Img/logo_watch_series_8__d2ssndjuokeq_medium.png);
+    width: 200px;
+    height: 60px;
+    background-repeat: no-repeat;
+    direction: ltr;
+    display: flex;
+    justify-content: center;
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 36px;
+    border: none;
+    padding-top: 5rem;
+}
+
+.headline2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    border: none;
+    padding-top: 5rem;
+}
+
+.subhead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.subhead2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.subhead img {
+    margin-left: 0.5rem;
+    width: 29px;
+    height: 29px;
+}
+
+.watch-ultra {
+    margin-left: 42%;
+    margin-top: 5rem;
+}
+
+/*Vüsal END*/
 
 /*SLIDER*/
 
@@ -419,7 +751,7 @@ body .sub-menu-wrap2 .open-menu2 {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    transition-timing-function: ease-in-out cubic-bezier(0.7, 0.16, 0.13, 0.95);
+    transition-timing-function: ease-in-out, cubic-bezier(0.7, 0.16, 0.13, 0.95);
 }
 
 .right-arrow {
@@ -445,6 +777,7 @@ body .sub-menu-wrap2 .open-menu2 {
     cursor: pointer;
     transition: transform 0.15s linear, opacity 0.15s linear;
 }
+
 
 /*DOTS*/
 
@@ -504,6 +837,7 @@ body .sub-menu-wrap2 .open-menu2 {
     outline: none;
     border-radius: 50%;
 }
+
 
 /*STREAM BTNS*/
 
@@ -566,6 +900,7 @@ body .sub-menu-wrap2 .open-menu2 {
     margin: 0.2rem;
     margin-left: 0.5rem;
 }
+
 
 /*IMAGES*/
 
@@ -668,6 +1003,7 @@ body .sub-menu-wrap2 .open-menu2 {
     object-fit: cover;
     user-select: none;
 }
+
 
 /*FOOTER*/
 
@@ -814,349 +1150,4 @@ body .sub-menu-wrap2 .open-menu2 {
 
 .policy:hover {
     text-decoration: underline;
-}
-
-/*alex--------------------------------------------------------------*/
-
-/*IMAC*/
-a {
-    display: block;
-    text-decoration: none;
-}
-
-.cards1 {
-    height: 1900px;
-}
-
-.imac {
-    background-image: url("/Img/hero.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 700px;
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 0.8rem;
-}
-
-.title-heading {
-    color: #000000d7;
-    font-size: 3.2rem;
-    line-height: 1.08;
-    letter-spacing: 0.005rem;
-}
-
-.cta {
-    text-align: center;
-    margin-top: 1.8rem;
-}
-
-.title {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding-top: 5.5rem;
-}
-/*IMAC END*/
-/*HOLIDAY*/
-
-.holliday {
-    background-image: url("/Img/holiday-logo-202211\ \(1\).png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 399px;
-    width: 18%;
-    margin-top: 6rem;
-}
-
-.holiday-wrapper {
-    display: inline-block;
-    justify-content: center;
-    width: 100%;
-    height: 700px;
-    background-color: rgb(1, 0, 42);
-}
-
-.holiday-wrapper2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50%;
-}
-
-.holiday-wrapper3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: 25%;
-    margin-top: 6rem;
-}
-
-.title-heading2 {
-    color: #ffffff;
-    font-size: 3.2rem;
-    line-height: 1.08;
-    letter-spacing: 0.005rem;
-}
-
-.title2 {
-    color: #fff;
-}
-
-.cta2 {
-    text-align: center;
-}
-
-/*HOLIDAY END*/
-/*IPAD*/
-
-.ipad {
-    background-image: url("/Img/ipad.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 700px;
-    width: 100%;
-}
-
-.title-heading3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 25rem;
-    padding-top: 15%;
-    color: #000000d7;
-    font-size: 3.2rem;
-    line-height: 1.08;
-    letter-spacing: 0.005rem;
-}
-
-.title3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 25rem;
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
-
-.cta3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 25rem;
-    margin-top: 1.8rem;
-}
-
-.cta-link3 {
-    color: #06c;
-    font-size: 2.1rem;
-    display: inline-block;
-    font-size: 1rem;
-    margin-right: 1rem;
-}
-/*IPAD END*/
-/*----------------------------*/
-
-.title-sub-heading {
-    font-size: 1.5rem;
-    margin-top: 0.6rem;
-    letter-spacing: 0.008rem;
-    font-weight: 400;
-}
-
-.cta-link {
-    color: #06c;
-    font-size: 2.1rem;
-    display: inline-block;
-    font-size: 1rem;
-}
-/*----------------------------*/
-/*alex-------------------------------------------------------------*/
-
-/*Vüsal*/
-
-.homepage-selection {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-areas: none;
-    grid-gap: 10px;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 13rem;
-    
-    margin-bottom: 1rem;
-}
-
-.wrapper {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    width: 100%;
-    height: 50%;
-}
-
-.module-content {
-    background-image: url(/Img/iphone14pro.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: #000000;
-    height: 600px;
-    width: 100%;
-}
-
-.module-content2 {
-    background-image: url(/Img/airpods_pro.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: #000000;
-    height: 600px;
-    width: 100%;
-}
-
-.module-content3 {
-    background-image: url(/Img/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: #000000;
-    height: 600px;
-    width: 100%;
-}
-
-.module-content4 {
-    background-image: url(/Img/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: #fbfbfd;
-    height: 600px;
-    width: 100%;
-}
-
-.module-content5 {
-    background-image: url(/Img/promo_ipadpro__ch217v9v7no2_medium.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: #000000;
-    height: 600px;
-    width: 100%;
-}
-
-.module-content6 {
-    background-image: url(/Img/promo_tv4k_avail__e17d9isb0vwy_medium.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: #fbfbfd;
-    height: 600px;
-    width: 100%;
-}
-
-.backround-black-img {
-    background-image: url(/Img/logo_watch_series_8__d2ssndjuokeq_medium.png);
-    width: 200px;
-    height: 60px;
-    background-repeat: no-repeat;
-    direction: ltr;
-    display: flex;
-    justify-content: center;
-}
-
-.backround-white-img {
-    background-image: url(/Img/logo_watch_ultra.png);
-    width: 200px;
-    height: 60px;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-}
-
-.headline {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 36px;
-    border: none;
-    padding-top: 5rem;
-}
-
-.headline2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    color: rgb(0, 0, 0);
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 36px;
-    border: none;
-    padding-top: 5rem;
-}
-
-.subhead {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 19px;
-    font-weight: 400;
-}
-
-.subhead2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(0, 0, 0);
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 19px;
-    font-weight: 400;
-}
-
-.subhead img {
-    margin-left: 0.5rem;
-    width: 29px;
-    height: 29px;
-}
-
-.watch-ultra {
-    margin-left: 42%;
-    margin-top: 5rem;
-}
-
-.link1 {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    color: rgb(44, 129, 215);
-    margin-right: 1rem;
-    font-size: 17px;
-    padding-left: 43%;
-}
-
-.link2 {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    color: rgb(44, 129, 215);
-    margin-right: 1rem;
-    font-size: 17px;
-    padding-left: 1%;
-}
-
-.link {
-    margin-top: 1rem;
 }
