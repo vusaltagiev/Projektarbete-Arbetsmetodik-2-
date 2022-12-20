@@ -6,7 +6,7 @@ const leftBtn = document.querySelector("#slideLeft");
 const slideShowInterval = 6000;
 
 let slides = document.querySelectorAll(".slideCard");
-let index = 1;
+let index = 2;
 let currentSlide;
 let dots;
 
