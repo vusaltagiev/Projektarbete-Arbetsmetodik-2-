@@ -108,3 +108,12 @@ let subMenu2 = document.getElementById("subMenu2");
 function toggleMenu2() {
     subMenu2.classList.toggle("open-menu2");
 }
+
+/*MOBILE MENU*/
+/*
+let mobile = document.getElementsByClassName("sub-menu-mobile");
+
+function toggleMenu3() {
+    sub - menu - mobile.classList.toggle("open-menu3");
+}
+*/
