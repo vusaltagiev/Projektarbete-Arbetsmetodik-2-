@@ -357,7 +357,7 @@ a {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    transition-timing-function: ease-in-out cubic-bezier(0.7, 0.16, 0.13, 0.95);
+    transition-timing-function: ease-in-out, cubic-bezier(0.7, 0.16, 0.13, 0.95);
 }
 
 .right-arrow {
@@ -909,7 +909,7 @@ a {
 
 .homepage-selection {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
     grid-template-areas: none;
     grid-gap: 10px;
     margin-left: 1rem;
